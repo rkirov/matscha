@@ -9,9 +9,15 @@ A library for performing syntactic (AST-based) matches for JS and TS.
 
 Basic usage is:
 
-> node matscha <matcher> <file1> <file2> ...
+> node matscha '_matcher_' _file1_ _file2_ ...
 
 The matcher is matched against each node and the fullText of the matching node is printed.
+
+## Examples
+
+- match all trivial equality checks - `_ === _`
+- match all ternary expessions - `_1 ? _2 : _3`
+- match some function call when called with 0 as second arg - `f(_arg1, 0, _arg2)`
 
 ## How to use as library
 
