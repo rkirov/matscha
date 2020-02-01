@@ -1,9 +1,10 @@
 {
-  "name": "matsch",
+  "name": "matscha",
   "version": "1.0.0",
-  "description": "",
+  "description": "JS/TS Ast matching tool",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "author": "rkirov@gmail.com",
