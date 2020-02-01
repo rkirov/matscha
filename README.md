@@ -1,5 +1,7 @@
 # maTScha
 
+![Node.js CI](https://github.com/rkirov/matscha/workflows/Node.js%20CI/badge.svg)
+
 A library for performing syntactic (AST-based) matches for JS and TS.
 
 
